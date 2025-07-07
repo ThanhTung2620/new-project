@@ -1,0 +1,49 @@
+/* Khung chính của form */
+.form-container {
+    width: 500px;
+    background-color: #f0ffff; /* xanh nhạt */
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Tiêu đề */
+.title {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0;
+}
+
+/* Label chữ xanh */
+.label-blue {
+    color: blue;
+    font-weight: bold;
+
+}
+
+/* Ô nhập */
+.input-text {
+    width: 250px;
+    height: 25px;
+    box-shadow: 0 1px 3px #888;
+    border: 2px solid #888888;
+    padding: 5px;
+    font-size: 14px;
+    border-style: inset ;
+}
+
+/* Phần sở thích */
+.hobby {
+    color: orangered;
+    margin-right: 15px;
+}
+
+/* Nút bấm */
+.button-row input {
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

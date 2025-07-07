@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Sở Thích</title>
+    <link rel="stylesheet" href="formhobby.css">
+</head>
+<body>
+<div class="form-container">
+    <h2 class="title">SỞ THÍCH CỦA BẠN</h2>
+    <form action="post" method="">
+        <table >
+            <tr>
+                <td align="right"><label class="label-blue" for="name" >Họ và tên</label></td>
+                <td colspan="3"><input type="text" id="name" class="input-text" name="name"></td>
+            </tr>
+            <tr>
+                <td align="right"><label class="label-blue" for="email">Email</label></td>
+                <td colspan="3"><input type="text" id="email" class="input-text" name="email"></td>
+            </tr>
+            <tr>
+                <td align="right"><span class="label-blue">Sở thích</span></td>
+                <td ><input type="checkbox"> <span class="hobby" name="hobby">Thể thao</span></td>
+                <td><input type="checkbox"> <span class="hobby" name="hobby">Âm nhạc</span></td>
+                <td><input type="checkbox"> <span class="hobby" name="hobby">Đọc sách</span></td>
+            <tr>
+                <td></td>
+            <td><input type="checkbox"> <span class="hobby" name="hobby">Lướt web</span></td>
+            <td><input type="checkbox"> <span class="hobby" name="hobby">Chơi game</span></td>
+            <td> <input type="checkbox"> <span class="hobby"name="hobby">Điện ảnh</span></td>
+            </tr>
+                <td></td>
+                <td><input type="checkbox"> <span class="hobby"name="hobby">Du lịch</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="button-row">
+                    <input type="submit" name="Submitform" value="Gửi thông tin">
+                    <input type="reset" name="resetform" value="Nhập lại">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
